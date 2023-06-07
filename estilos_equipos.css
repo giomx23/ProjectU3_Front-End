@@ -1,0 +1,214 @@
+* {
+  padding: 0;
+  margin: 0;
+  /* box-sizing: border-box; */
+}
+body {
+  font-family: Poppins, sans-serif;
+}
+.ancho {
+  /* border: 1px red solid; */
+  max-width: 1200px;
+  margin: auto;
+}
+#subir{
+  font-size: 40px;
+    position: fixed;
+    z-index: 17;
+    bottom: 15px;
+    right: 0px;
+    margin-left: 100px;
+    cursor: pointer;
+    color: white;
+    background-color: #005cda;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+/* INICIO DEL CONTAINER CARRUSEL */
+.titulo_carousel {
+  padding-top: 100px;
+  background-color: #f1f6fc;
+  text-align: center;
+}
+.titulo_carousel h4 {
+  color: #005cda;
+  letter-spacing: 5px;
+  font-size: 18px;
+  text-align: center;
+}
+.titulo_carousel h1 {
+  font-size: 40px;
+  text-align: center;
+}
+.titulo_carousel h5 {
+  font-size: 20px;
+}
+.titulo_carousel h6 {
+  font-size: 20px;
+}
+.titulo_carousel p {
+  font-size: 20px;
+}
+.barra_video {
+  width: 100px;
+  padding: 2px;
+  border: 1px #005cda solid;
+  background-color: #005cda;
+  border-radius: 5px;
+  margin: auto;
+}
+#slider1 {
+  max-width: 1200px;
+  margin: auto;
+  height: 1%;
+  overflow: hidden;
+  padding: 0 0 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#slider1 .viewport {
+  width: 1020px;
+  height: 500px;
+  overflow: hidden;
+  position: relative;
+}
+#slider1 .buttons {
+  /* border:1px red solid; */
+  display: block;
+  margin: 30px 10px 0 0;
+  /* float: left; */
+  width: 35px;
+  height: 35px;
+  position: relative;
+  color: black;
+  font-weight: bold;
+  text-align: center;
+  line-height: 35px;
+  text-decoration: none;
+  font-size: 22px;
+}
+#slider1 .next {
+  margin: 30px 0 0 10px;
+}
+#slider1 .buttons:hover {
+  color: #005cda;
+}
+#slider1 .disable {
+  visibility: hidden;
+}
+#slider1 .overview {
+  list-style: none;
+  position: absolute;
+  padding: 0;
+  margin: 0;
+  width: 240px;
+  left: 0;
+  top: 0;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+#slider1 .overview li {
+  margin: 0 20px 0 0;
+  padding: 10px;
+  width: 300px;
+  height: 400px;
+  border: 1px solid #dcdcdc;
+  /* border:2px green solid; */
+}
+#slider1 .overview li img {
+  object-fit: cover;
+  width: 300px;
+}
+.contenedor_btn_redes_sociales {
+  /* border: 1px blue solid; */
+  margin-top: -20px;
+  display: flex;
+  justify-content: space-evenly;
+  transform: translate3d(0, -8px, 0);
+  transform: translate3d(0, 110%, 0);
+  transition: all 0.2s ease;
+}
+.contenedor_btn_redes_sociales a {
+  /*border: 1px #ededed solid;
+  */
+  display: flex;
+  background-color: white;
+  color: #005cda;
+  width: 40px;
+  height: 40px;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  border-radius: 50%;
+  margin-top: -10px;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.3);
+}
+.contenedor_btn_redes_sociales a:hover {
+  /* border: 1px #005cda solid; */
+  background-color: #005cda;
+  color: white;
+  transition: all 0.5s;
+}
+#slider1 .overview li:hover {
+  margin: 0 20px 0 0;
+  box-shadow: 0px 0px 10px #e5e5e5;
+  transition: all 0.2s;
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  -ms-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  /* border: 1px solid #dcdcdc; */
+}
+#slider1 .overview li:hover {
+  transform: translateY(-15px);
+  -webkit-transform: translateY(-15px);
+  -moz-transform: translateY(-15px);
+  -ms-transform: translateY(-15px);
+  -o-transform: translateY(-15px);
+}
+#slider1 .overview li {
+  /* border: 1px white solid; */
+  margin: 0 20px 0 0;
+  text-align: center;
+  padding: 10px;
+  width: 300px;
+  height: 400px;
+  background-color: white;
+  transition: transform 0.3s;
+}
+/* FIN DEL CONTAINER CARRUSEL */
+
+/* INICIO CONTAINER VIDEO */
+.video_resposive {
+  background-color: #f1f6fc;
+  padding-bottom: 100px;
+}
+.video_resposive h4 {
+  color: #005cda;
+  letter-spacing: 5px;
+  font-size: 18px;
+  text-align: center;
+}
+.video_resposive h1 {
+  font-size: 40px;
+  text-align: center;
+}
+.barra_video {
+  width: 100px;
+  padding: 2px;
+  border: 1px #005cda solid;
+  background-color: #005cda;
+  border-radius: 5px;
+  margin: auto;
+}
+.video1 {
+  text-align: center;
+}
+/* FIN CONTAINER VIDEO */

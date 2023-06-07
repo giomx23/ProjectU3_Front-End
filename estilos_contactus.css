@@ -1,0 +1,72 @@
+/* INICIO CONTAINER CONTACT US */
+.container_contactus{
+  padding-top: 300px;
+  padding-bottom: 80px;
+}
+.container_contactus_padre{
+  /* border: 1px red solid; */
+  display: flex;
+  position: relative;
+  margin-top: -100px;
+  background-color: white;
+  padding: 50px 50px;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+}
+.container_contactus_imagen{
+  /* border: 1px blue solid; */
+  background-image: url('contactus.jpg');
+  background-color: rgb(0, 0, 0); /* 50% de transparencia */
+  width: 350px;
+  height: 600px;
+  background-size: cover;
+  background-position: center;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+.container_contactus_imagen h3{
+  padding-top: 50%;
+  font-size: 24px;
+  color: white;
+}
+.container_contactus_imagen p{
+  text-align: justify;
+  padding-right: 20px;
+  color: white;
+}
+.container_parrafos_contactus{
+  /* border: 1px green solid; */
+  padding: 10px 30px;
+  max-width: 780px;
+}
+.container_parrafos_contactus h4{
+  /* border: 1px red solid; */
+  color: #005cda;
+  letter-spacing: 5px;
+}
+.container_parrafos_contactus h1{
+  font-size: 40px;
+}
+.barra_contactus{
+  max-width: 100px;
+  padding: 2px;
+  border: 1px #005cda solid;
+  background-color: #005cda;
+  border-radius: 5px;
+}
+.formulario{
+  text-align: center;
+}
+.formulario input{
+  padding: 10px 0px;
+  width: 50%;
+}
+.btn_send{
+  background-color: #005cda;
+  color: white;
+  border: 1px #005cda solid;
+  font-weight: bold;
+}
+.formulario textarea{
+  width: 50%;
+}
+/* FIN CONTAINER CONTACT US */
